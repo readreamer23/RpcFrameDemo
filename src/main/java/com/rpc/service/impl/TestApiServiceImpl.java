@@ -8,7 +8,6 @@ import com.rpc.service.TestApiService;
 public class TestApiServiceImpl implements TestApiService {
 
     public String getName(String name) {
-
         return "name-" + name;
     }
 

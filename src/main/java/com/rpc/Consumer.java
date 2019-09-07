@@ -7,9 +7,8 @@ import com.rpc.service.TestApiService;
  */
 public class Consumer {
 
-
     public static void main(String[] args) throws Exception {
-        System.out.println("......消费者" );
+        System.out.println("消费者" );
         TestApiService service = RpcFrame.refer(TestApiService.class,ConfigUtil.HOST,ConfigUtil.PORT);
         System.out.println("consumer开始消费!" );
         for (int i = 0; i < 10; i ++) {
